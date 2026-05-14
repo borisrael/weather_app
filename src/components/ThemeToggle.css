@@ -1,0 +1,64 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  margin-bottom: 0;
+}
+
+/* ── Dark Mode ── */
+body.dark-mode {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  min-height: 100vh;
+  margin: 0;
+}
+
+body.dark-mode .app {
+  background: transparent;
+}
+
+body.dark-mode .weather-card {
+  background: #1e1e2e;
+  color: #e0e0e0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .weather-card h2 {
+  color: #e0e0e0;
+}
+
+body.dark-mode .weather-info p {
+  color: #aaaaaa;
+}
+
+body.dark-mode .search-input {
+  background: #2a2a3e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .search-input::placeholder {
+  color: #888;
+}
+
+body.dark-mode .forecast-container h3 {
+  color: #e0e0e0;
+}
+
+body.dark-mode .forecast-card {
+  background: #2a2a3e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .forecast-temp {
+  color: #e0e0e0;
+}
+
+body.dark-mode .forecast-day {
+  color: #aaaaaa;
+}
